@@ -1,0 +1,36 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+
+body{
+  font-family: 'Lato', sans-serif;
+  background-image: url(https://wallpapers.com/images/hd/horizon-full-screen-hd-desktop-nsw7v8luhapdp6gs.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.year{
+    font-size: 150px;
+    opacity: 0.4;
+    padding-top: 50px;
+}
+
+.time{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.count{
+    display: flex;
+    transform: scale(1.5);
+} 
